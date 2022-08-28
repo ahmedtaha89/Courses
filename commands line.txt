@@ -1,0 +1,48 @@
+cd =>change director
+cd .. بيرجعك خطوه للخلف
+cd \ بيرجعك للخلف 
+mkdir || md بينشأ فولدر 
+ls => list
+move=> بينقل و بيعيد التسميه 
+rename => بيعيد تسمييه 
+cp => copy
+ اي امر+--help بيفتح قائمه المساعد
+-r, --recursive بيحذف اللي جواه كله او بينسخه
+rm => remove 
+-d => delete empty file
+echo => Create file 
+echo  "****"  >   ahmed.txt   Create file and put  this text "****"
+echo  "****"  >>  ahmed.txt   Create file and put this text upend 
+cat*  =>show all the text in file
+grep بيبحث عن كلمه معينه -r
+grep "**** -r -l    => list to elements and file 
+exit => closed termainal
+file =>  بيحدد نوعه
+control + c  => stop 
+osk => on screen
+tasklist  
+explorer => open 
+ipconfig =>show ip
+whoami => show the user 
+sysyteminfo 
+ss64 website
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
