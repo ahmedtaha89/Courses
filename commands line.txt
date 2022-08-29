@@ -1,4 +1,6 @@
 cd =>change director
+To Change path in Cmder => partion name + :
+ex => C:  || F: || D: 
 cd .. بيرجعك خطوه للخلف
 cd \ بيرجعك للخلف 
 mkdir || md بينشأ فولدر 

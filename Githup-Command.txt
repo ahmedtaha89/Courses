@@ -3,10 +3,14 @@ git status => من الاخر بتشوف الحاله الجديده اللي ح
 git diff <file name >  ||  git diff  => will show you all the changes in your repository
 git add + file name => بضيف الملف بس || git add * => بضيف كل الملفات الجديده
 (work spacing =>git add ) => (staging area =>git commit) => (local repo)
+
 git reset head => بتسحب الملف من staging area
 git commit -m " " => بتكتب ملحوظه
-If you accidentally mistype a commit message, you can change it using the --amend flag.
+If you accidentally mistype a commit message, you can change it using the --amend flag.  
+--amend => commit  لو عايز اعدل الرساله  اللي عملتلها   
 git commit --amend -m "message"
+git log => Show all commit in repo  || git log <path>
+
 git remote -v => remote
 git push (remote repo + branch)
 git pull => ( git fetch  + marge )
