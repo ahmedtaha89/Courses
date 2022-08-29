@@ -1,9 +1,12 @@
 git clone + like  => بتنزل الريبو 
 git status => من الاخر بتشوف الحاله الجديده اللي حصلت
+git diff <file name >  ||  git diff  => will show you all the changes in your repository
 git add + file name => بضيف الملف بس || git add * => بضيف كل الملفات الجديده
 (work spacing =>git add ) => (staging area =>git commit) => (local repo)
 git reset head => بتسحب الملف من staging area
 git commit -m " " => بتكتب ملحوظه
+If you accidentally mistype a commit message, you can change it using the --amend flag.
+git commit --amend -m "message"
 git remote -v => remote
 git push (remote repo + branch)
 git pull => ( git fetch  + marge )
