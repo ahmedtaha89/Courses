@@ -1,86 +1,150 @@
 git clone + like  => بتنزل الريبو 
+
 git status => من الاخر بتشوف الحاله الجديده اللي حصلت
+
 git diff <file name >  ||  git diff  => will show you all the changes in your repository
+
 git add + file name => بضيف الملف بس || git add * => بضيف كل الملفات الجديده
+
 (work spacing =>git add ) => (staging area =>git commit) => (local repo)
 
+git -h => help 
+
 git reset head => بتسحب الملف من staging area
+
 git commit -m " " => بتكتب ملحوظه
+
 If you accidentally mistype a commit message, you can change it using the --amend flag.  
+
 --amend => commit  لو عايز اعدل الرساله  اللي عملتلها   
+
 git commit --amend -m "message"
+
 git log => Show all commit in repo  || git log <path>
 
 git remote -v => remote
+
 git push (remote repo + branch)
+
 git pull => ( git fetch  + marge )
+
 touch => new file
+
 ssh =>secure shell
+
 keygen =>key generator 
+
 -t =>type  نوع الالجوريزم اللي هننشأ بيه key
+
 rsa نوع الالجوريزم
+
 ssh-keygen -t rsa -b 4096 "gmail"
+
 cat ~ + rsa name 
+
 ssh -T git@githup.com
+
 -u => pull + push
+
 init => local repo 
+
 pull request => 
+
 لو انا مش فرد في التيم و  مليش صلاحيه الوصول لاي حاجه . و عايز اعمل تعديل او اضافه بعمل
 
 1-fork و اضيف اللي انا اعايزه وبعدين اعمل
+
 2-new pull requests 
+
 3- create new requests 
+
 4-create new commit 
+
 5- في حساب الادمن بشوف pull request و بعمل marge
+
 -----------------------------------
 alias => اسم مستعار 
+
 git config      --global   alias. + الامر + الاختصار
+
 git config       --global --edit  => open editor for make ex. alias name || change username 
+
 git branch       بتستعلم عن الفروع الموجوده  
+
 git brach       +  name of branch => تنشأ فرع جديد
-git checkout    +  name of branch => switch branch  
+
+git checkout    +  name of branch => switch branch 
+ 
 git branch -d   +  name of branch = >delete the branch
+
 git checkout -b +  name of branch => create new branch
+
 git branch -m   +  new name branch  
+
 -d => بيحذف الفرع بس بيشوف الاول انت عملت دمج   لو تمام بيحذف مكنش مبيدحذفش
+
 -D => بيحذف الفرع علطول 
+
 git stash =>  بتخفي الحاجه في جنب و بترجعها وقت ما انت عايز
+
 git stash list => قائمه الحاجات المخفيه 
+
 git stash pop =>     بتعرض اخر حاجه اضافت + بتحذفها  || بتخرج الحاجات المخفيه في القايمه  (اخر حاجه دخلت هي اللي تخرج  )
+
 git stash save + "***" => بتكتب الرساله اللي انت عايزها لما تعمل list
+
 git stash apply => بتعرض   اخر الملفات الموجوده في القايمه منغير ما تحذفها 
+
 git stash pop stash@{index} => بتعرضه و تعمله حذف من القايمه (id بتحدد)
+
 git stash drop بتحذف اخر واحد في القايمه
+
 git stash drop stash@{index}
+
 git stash show => بيعرض اللي في القايمه 
+
 git stash show stash@{index} => بيعرض اللي في القايمه 
+
 git stash clear => بيحذف اللي في القايمه 
 
 git restore --stage <file> || * 
+
 git clean -n remove files in stage area 
+
 -n = show files in stage area when u want remove it
+
 -f = confirmed remove files 
 
 git log  => head
+
 Q => exit from log
+
 --hard remove all changes
+
 --soft remove specific changes
+
 git reset --hard + hash =>remove the commit from stage 
+
 + git push origin master
- 
 
 git ignore => ( .gitignore ) used to ignore specific file 
+
 git add --force(-f) <file name> add file while 
 
 # tag 
+
 #git tag => to check tag
 
 # lightwight tag
+
 git tag <tag name>
+
 git push origin <tag name>
 
 # Annotated tag 
+
 git tag -a " "  -m "message"
+
 git push origin <tag name>
 
 git tag -d <tag name> => to delete tag from local repo
