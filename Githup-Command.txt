@@ -1,4 +1,16 @@
-git clone + like  => بتنزل الريبو 
+# Remote Repo 
+git clone + link => بتنزل الريبو 
+
+# Local Repo
+-cd directory
+- git init 
+- echo "Message" >> README.md 
+- git add README.md
+- git commit -m "Message"
+- git branch -M master
+- git remote add  origin + Link 
+- git push -u origin master
+
 
 git status => من الاخر بتشوف الحاله الجديده اللي حصلت
 
