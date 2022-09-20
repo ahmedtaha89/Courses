@@ -1,0 +1,5 @@
+Ctrl + v => Paste
+Ctrl + C => Copy
+Ctrl + X => Cut
+Alt+ ↑ / ↓ => Move Line Up || Down
+
